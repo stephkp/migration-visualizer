@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import { Header } from "@/components/Header";
 import { MigrationCanvas } from "@/components/MigrationCanvas";
+import { StatsPanel } from "@/components/StatsPanel";
 import { MOCK_COUNTRIES, MOCK_FLOWS } from "@/data";
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
         hoveredCountryCode={hoveredCountryCode}
         onHoverCountry={setHoveredCountryCode}
         flowsData={selectedCountryCode ? MOCK_FLOWS[selectedCountryCode] : undefined}
+      />
+      <StatsPanel
+        flowsData={selectedCountryCode ? MOCK_FLOWS[selectedCountryCode] : undefined}
+        onClose={() => setSelectedCountryCode(null)}
       />
     </div>
   );
