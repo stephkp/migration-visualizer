@@ -13,8 +13,8 @@ An interactive visualization of global migration flows built with React and D3.
 ## Getting Started
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn run dev
 ```
 
 ## Project Structure
