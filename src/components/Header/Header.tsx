@@ -2,12 +2,10 @@ import type { Country } from "@/types/migration";
 import "./Header.scss";
 
 interface HeaderProps {
-  searchQuery: string;
-  setSearchQuery: (q: string) => void;
   selectedCountry?: Country;
 }
 
-export function Header({ searchQuery, setSearchQuery }: HeaderProps) {
+export function Header({}: HeaderProps) {
   return (
     <header className="header">
       <div className="header__brand">
@@ -32,8 +30,7 @@ export function Header({ searchQuery, setSearchQuery }: HeaderProps) {
             type="text"
             className="header__search-input"
             placeholder="Search countries..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            value=""
           />
         </div>
       </div>

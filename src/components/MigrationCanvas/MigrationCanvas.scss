@@ -1,0 +1,105 @@
+@use '../../styles/abstracts/variables' as *;
+@use '../../styles/abstracts/mixins' as *;
+
+/* Canvas */
+.canvas {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+
+  &__svg {
+    display: block;
+  }
+
+  /* Column Headers */
+  &__column-title {
+    fill: var(--color-muted-foreground);
+    font-family: $font-display;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  &__column-subtitle {
+    fill: var(--color-muted-foreground);
+    font-size: 0.75rem;
+    opacity: 0.5;
+  }
+
+  /* Country Node */
+  &__node {
+    cursor: pointer;
+  }
+
+  /* Country Label */
+  &__label {
+    fill: var(--color-muted-foreground);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: fill $transition-base, opacity $transition-base;
+
+    &--active {
+      fill: white;
+      font-weight: 700;
+      @include text-glow;
+    }
+
+    &--faded {
+      opacity: 0.2;
+    }
+  }
+
+  /* Stat text */
+  &__stat {
+    font-size: 0.75rem;
+    font-family: monospace;
+    fill: transparent;
+    transition: fill $transition-base;
+
+    &--outflow {
+      fill: transparent;
+    }
+
+    &--inflow {
+      fill: transparent;
+    }
+
+    &--visible#{&}--outflow {
+      fill: var(--color-secondary);
+      opacity: 0.8;
+    }
+
+    &--visible#{&}--inflow {
+      fill: var(--color-primary);
+      opacity: 0.8;
+    }
+  }
+
+  /* Flow Paths */
+  &__flow {
+    transition: opacity $transition-base;
+
+    &--glowing {
+      filter: drop-shadow(0 0 8px currentColor);
+    }
+  }
+
+  /* Node Dot */
+  &__dot {
+    fill: var(--color-border);
+    transition: fill $transition-base, r $transition-base;
+
+    &--outflow {
+      fill: var(--color-secondary);
+      filter: drop-shadow(0 0 6px var(--color-secondary));
+    }
+
+    &--inflow {
+      fill: var(--color-primary);
+      filter: drop-shadow(0 0 6px var(--color-primary));
+    }
+  }
+}

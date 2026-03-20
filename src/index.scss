@@ -93,29 +93,4 @@ h1, h2, h3, h4, h5, h6 {
 /* ─── App ─── */
 .app {
   min-height: 100vh;
-
-  &__main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding-top: 5rem;
-  }
-
-  &__content {
-    text-align: center;
-  }
-
-  &__title {
-    @include heading;
-    font-size: 2.25rem;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-
-  &__subtitle {
-    margin-top: 1rem;
-    font-size: 1.125rem;
-    color: var(--color-muted-foreground);
-  }
 }
