@@ -1,0 +1,26 @@
+// ─── Color Tokens ────────────────────────────────────────────
+// All colors defined as CSS custom properties for runtime theming.
+// HSL values stored raw so they can be used with hsl() or hsla().
+
+$font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+$font-display: 'Outfit', $font-sans;
+
+// ─── Radius ──────────────────────────────────────────────────
+$radius-sm: 0.5rem;
+$radius-md: 0.625rem;
+$radius-lg: 0.75rem;
+$radius-xl: 1rem;
+$radius-2xl: 1.25rem;
+
+// ─── Z-Index Scale ───────────────────────────────────────────
+$z-base: 1;
+$z-dropdown: 10;
+$z-sticky: 20;
+$z-overlay: 30;
+$z-modal: 40;
+$z-toast: 50;
+
+// ─── Transitions ─────────────────────────────────────────────
+$transition-fast: 150ms ease;
+$transition-base: 300ms ease;
+$transition-slow: 500ms ease;

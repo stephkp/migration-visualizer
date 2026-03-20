@@ -1,0 +1,38 @@
+@use 'variables' as *;
+
+// ─── Glass panel (frosted dark card) ─────────────────────────
+@mixin glass-panel {
+  background-color: hsla(230, 25%, 4%, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+// ─── Text glow ───────────────────────────────────────────────
+@mixin text-glow {
+  text-shadow: 0 0 10px currentColor;
+}
+
+// ─── Truncate text ───────────────────────────────────────────
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// ─── Heading base ────────────────────────────────────────────
+@mixin heading {
+  font-family: $font-display;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+// ─── Responsive breakpoints ──────────────────────────────────
+@mixin md {
+  @media (min-width: 768px) { @content; }
+}
+
+@mixin lg {
+  @media (min-width: 1024px) { @content; }
+}
