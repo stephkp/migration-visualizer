@@ -3,9 +3,11 @@ import "./Header.scss";
 
 interface HeaderProps {
   selectedCountry?: Country;
+  searchQuery?: string;
+  onSearchChange?: (query: string) => void;
 }
 
-export function Header({}: HeaderProps) {
+export function Header({ searchQuery = "", onSearchChange }: HeaderProps) {
   return (
     <header className="header">
       <div className="header__brand">
@@ -30,7 +32,8 @@ export function Header({}: HeaderProps) {
             type="text"
             className="header__search-input"
             placeholder="Search countries..."
-            value=""
+            value={searchQuery}
+            onChange={(e) => onSearchChange?.(e.target.value)}
           />
         </div>
       </div>
