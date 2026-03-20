@@ -1,7 +1,7 @@
 @use 'styles/abstracts/variables' as *;
 @use 'styles/abstracts/mixins' as *;
 
-// ─── CSS Custom Properties (Dark Theme) ─────────────────────
+/* ─── CSS Custom Properties (Dark Theme) ─── */
 :root {
   // Core
   --color-background: hsl(230, 25%, 4%);
@@ -38,7 +38,7 @@
   --color-ring: hsl(180, 100%, 50%);
 }
 
-// ─── Reset / Base ────────────────────────────────────────────
+/* ─── Reset / Base ─── */
 *,
 *::before,
 *::after {
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   @include heading;
 }
 
-// ─── Custom Scrollbar ────────────────────────────────────────
+/* ───  Custom Scrollbar ─── */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-// ─── App (landing placeholder) ───────────────────────────────
+/* ─── App ─── */
 .app {
   display: flex;
   align-items: center;
