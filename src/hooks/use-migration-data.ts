@@ -1,19 +1,24 @@
 import { useState, useMemo, useCallback } from "react";
 import type { Country, MigrationFlowResponse } from "@/types/migration";
-import { MOCK_COUNTRIES, MOCK_FLOWS } from "@/data";
+import { useCountries, useMigrationFlows } from "@/api";
 
 export function useMigrationData() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCountryCode, setSelectedCountryCode] = useState<string | null>(null);
   const [hoveredCountryCode, setHoveredCountryCode] = useState<string | null>(null);
 
+  const { data: allCountries = [], isLoading: countriesLoading } = useCountries();
+  const { data: flowsRaw, isLoading: flowsLoading } = useMigrationFlows(selectedCountryCode);
+
+  const flowsData: MigrationFlowResponse | undefined = flowsRaw ?? undefined;
+
   const countries = useMemo(() => {
     const q = searchQuery.toLowerCase();
     const filtered = q
-      ? MOCK_COUNTRIES.filter((c) => c.name.toLowerCase().includes(q))
-      : MOCK_COUNTRIES;
+      ? allCountries.filter((c) => c.name.toLowerCase().includes(q))
+      : allCountries;
     return [...filtered].sort((a, b) => a.name.localeCompare(b.name));
-  }, [searchQuery]);
+  }, [searchQuery, allCountries]);
 
   const selectedCountry: Country | undefined = useMemo(
     () =>
@@ -21,11 +26,6 @@ export function useMigrationData() {
         ? countries.find((c) => c.code === selectedCountryCode)
         : undefined,
     [selectedCountryCode, countries],
-  );
-
-  const flowsData: MigrationFlowResponse | undefined = useMemo(
-    () => (selectedCountryCode ? MOCK_FLOWS[selectedCountryCode] : undefined),
-    [selectedCountryCode],
   );
 
   const selectCountry = useCallback((code: string | null) => {
@@ -47,5 +47,6 @@ export function useMigrationData() {
     countries,
     selectedCountry,
     flowsData,
+    isLoading: countriesLoading || flowsLoading,
   };
 }
