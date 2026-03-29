@@ -1,4 +1,5 @@
 import type { MigrationFlowResponse } from "@/types/migration";
+import { formatNumber, formatCompactNumber } from "@/lib/utils";
 import "./StatsPanel.scss";
 
 interface StatsPanelProps {
@@ -50,19 +51,19 @@ export function StatsPanel({ flowsData, onClose }: StatsPanelProps) {
         <div className="stats__metric">
           <span className="stats__metric-label">Population</span>
           <span className="stats__metric-value">
-            {country.population}
+            {formatNumber(country.population)}
           </span>
         </div>
         <div className="stats__metric">
           <span className="stats__metric-label">Immigrants</span>
           <span className="stats__metric-value stats__metric-value--inflow">
-            {country.totalImmigrants}
+            {formatNumber(country.totalImmigrants)}
           </span>
         </div>
         <div className="stats__metric">
           <span className="stats__metric-label">Emigrants</span>
           <span className="stats__metric-value stats__metric-value--outflow">
-            {country.totalEmigrants}
+            {formatNumber(country.totalEmigrants)}
           </span>
         </div>
         <div className="stats__metric">
@@ -75,7 +76,7 @@ export function StatsPanel({ flowsData, onClose }: StatsPanelProps) {
             }`}
           >
             {(country.netMigration ?? 0) >= 0 ? "+" : ""}
-            {country.netMigration}
+            {formatNumber(country.netMigration)}
           </span>
         </div>
       </div>
@@ -85,7 +86,7 @@ export function StatsPanel({ flowsData, onClose }: StatsPanelProps) {
           <span className="stats__dot stats__dot--inflow" />
           Top Origins
           <span className="stats__section-total">
-            {totalIn}
+            {formatCompactNumber(totalIn)}
           </span>
         </h3>
         <ul className="stats__flow-list">
@@ -101,7 +102,7 @@ export function StatsPanel({ flowsData, onClose }: StatsPanelProps) {
                 />
               </div>
               <span className="stats__flow-value">
-                {f.value}
+                {formatCompactNumber(f.value)}
               </span>
             </li>
           ))}
@@ -113,7 +114,7 @@ export function StatsPanel({ flowsData, onClose }: StatsPanelProps) {
           <span className="stats__dot stats__dot--outflow" />
           Top Destinations
           <span className="stats__section-total">
-            {totalOut}
+            {formatCompactNumber(totalOut)}
           </span>
         </h3>
         <ul className="stats__flow-list">
@@ -129,7 +130,7 @@ export function StatsPanel({ flowsData, onClose }: StatsPanelProps) {
                 />
               </div>
               <span className="stats__flow-value">
-                {f.value}
+                {formatCompactNumber(f.value)}
               </span>
             </li>
           ))}

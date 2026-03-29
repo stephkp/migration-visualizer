@@ -1,4 +1,5 @@
 import type { Country } from "@/types/migration";
+import { formatCompactNumber } from "@/lib/utils";
 
 const TOP_MARGIN = 100;
 
@@ -79,7 +80,7 @@ export function CountryColumn({
               textAnchor={textAnchor}
               className={`canvas__stat canvas__stat--${flowType}${isActive ? " canvas__stat--visible" : ""}`}
             >
-              {node[statField]}
+              {formatCompactNumber(node[statField])}
             </text>
             <circle
               cx="0"
