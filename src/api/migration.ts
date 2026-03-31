@@ -1,5 +1,5 @@
-import { fetchJson } from "./client";
 import { fetchCountriesFromWB } from "./worldbank";
+import { getBilateralFlows } from "./bilateral";
 import type {
   Country,
   MigrationFlowResponse,
@@ -7,7 +7,7 @@ import type {
 } from "@/types/migration";
 import { MOCK_COUNTRIES, MOCK_FLOWS } from "@/data";
 
-const USE_MOCK = import.meta.env.VITE_USE_MOCK !== "false";
+const USE_MOCK = import.meta.env.VITE_USE_MOCK === "true";
 
 export async function getCountries(): Promise<Country[]> {
   if (USE_MOCK) return MOCK_COUNTRIES;
@@ -17,13 +17,11 @@ export async function getCountries(): Promise<Country[]> {
 export async function getMigrationFlows(
   params: GetMigrationFlowsParams,
 ): Promise<MigrationFlowResponse | null> {
-  // Bilateral flow data is not available from World Bank.
-  // Always use mock flows; replace with a real bilateral API when available.
-  if (USE_MOCK || !import.meta.env.VITE_FLOWS_API_URL) {
+  if (USE_MOCK) {
     return MOCK_FLOWS[params.countryCode] ?? null;
   }
-  const qs = params.year ? `?year=${params.year}` : "";
-  return fetchJson<MigrationFlowResponse>(
-    `/flows/${params.countryCode}${qs}`,
-  );
+  const result = await getBilateralFlows(params.countryCode);
+  if (result) return result;
+  // Fallback for countries missing from bilateral dataset
+  return MOCK_FLOWS[params.countryCode] ?? null;
 }

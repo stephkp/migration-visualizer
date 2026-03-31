@@ -1,0 +1,863 @@
+{
+  "year": "2020",
+  "source": "UN DESA International Migrant Stock 2020",
+  "data": {
+    "USA": {
+      "inflows": [
+        { "code": "MEX", "name": "Mexico", "value": 10932000 },
+        { "code": "IND", "name": "India", "value": 2721000 },
+        { "code": "CHN", "name": "China", "value": 2495000 },
+        { "code": "PHL", "name": "Philippines", "value": 2013000 },
+        { "code": "VNM", "name": "Vietnam", "value": 1382000 },
+        { "code": "KOR", "name": "South Korea", "value": 1052000 },
+        { "code": "DEU", "name": "Germany", "value": 1009000 },
+        { "code": "CAN", "name": "Canada", "value": 813000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 754000 },
+        { "code": "COL", "name": "Colombia", "value": 702000 }
+      ],
+      "outflows": [
+        { "code": "MEX", "name": "Mexico", "value": 800000 },
+        { "code": "CAN", "name": "Canada", "value": 390000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 318000 },
+        { "code": "DEU", "name": "Germany", "value": 213000 },
+        { "code": "AUS", "name": "Australia", "value": 112000 },
+        { "code": "JPN", "name": "Japan", "value": 98000 },
+        { "code": "FRA", "name": "France", "value": 87000 },
+        { "code": "BRA", "name": "Brazil", "value": 76000 },
+        { "code": "KOR", "name": "South Korea", "value": 65000 },
+        { "code": "IND", "name": "India", "value": 65000 }
+      ]
+    },
+    "IND": {
+      "inflows": [
+        { "code": "BGD", "name": "Bangladesh", "value": 2938000 },
+        { "code": "PAK", "name": "Pakistan", "value": 498000 },
+        { "code": "AFG", "name": "Afghanistan", "value": 413000 },
+        { "code": "CHN", "name": "China", "value": 152000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 65000 },
+        { "code": "USA", "name": "United States", "value": 65000 },
+        { "code": "MYS", "name": "Malaysia", "value": 48000 },
+        { "code": "AUS", "name": "Australia", "value": 32000 }
+      ],
+      "outflows": [
+        { "code": "ARE", "name": "United Arab Emirates", "value": 3478000 },
+        { "code": "USA", "name": "United States", "value": 2721000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 2459000 },
+        { "code": "PAK", "name": "Pakistan", "value": 1580000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 835000 },
+        { "code": "CAN", "name": "Canada", "value": 720000 },
+        { "code": "AUS", "name": "Australia", "value": 689000 },
+        { "code": "MYS", "name": "Malaysia", "value": 413000 },
+        { "code": "DEU", "name": "Germany", "value": 186000 },
+        { "code": "KEN", "name": "Kenya", "value": 103000 }
+      ]
+    },
+    "DEU": {
+      "inflows": [
+        { "code": "TUR", "name": "Turkey", "value": 2773000 },
+        { "code": "POL", "name": "Poland", "value": 2176000 },
+        { "code": "RUS", "name": "Russia", "value": 1311000 },
+        { "code": "SYR", "name": "Syria", "value": 876000 },
+        { "code": "ITA", "name": "Italy", "value": 755000 },
+        { "code": "USA", "name": "United States", "value": 213000 },
+        { "code": "FRA", "name": "France", "value": 198000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 167000 },
+        { "code": "IRQ", "name": "Iraq", "value": 259000 },
+        { "code": "AFG", "name": "Afghanistan", "value": 232000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 1009000 },
+        { "code": "TUR", "name": "Turkey", "value": 523000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 412000 },
+        { "code": "FRA", "name": "France", "value": 321000 },
+        { "code": "AUS", "name": "Australia", "value": 189000 },
+        { "code": "CAN", "name": "Canada", "value": 154000 },
+        { "code": "CHN", "name": "China", "value": 98000 },
+        { "code": "ITA", "name": "Italy", "value": 82000 },
+        { "code": "POL", "name": "Poland", "value": 67000 },
+        { "code": "BRA", "name": "Brazil", "value": 59000 }
+      ]
+    },
+    "MEX": {
+      "inflows": [
+        { "code": "USA", "name": "United States", "value": 800000 },
+        { "code": "VEN", "name": "Venezuela", "value": 105000 },
+        { "code": "COL", "name": "Colombia", "value": 56000 },
+        { "code": "ARG", "name": "Argentina", "value": 42000 },
+        { "code": "CHN", "name": "China", "value": 28000 },
+        { "code": "BRA", "name": "Brazil", "value": 18000 },
+        { "code": "FRA", "name": "France", "value": 12000 },
+        { "code": "DEU", "name": "Germany", "value": 11000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 10932000 },
+        { "code": "CAN", "name": "Canada", "value": 87000 },
+        { "code": "DEU", "name": "Germany", "value": 21000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 15000 },
+        { "code": "FRA", "name": "France", "value": 12000 },
+        { "code": "BRA", "name": "Brazil", "value": 8000 },
+        { "code": "ARG", "name": "Argentina", "value": 7000 }
+      ]
+    },
+    "GBR": {
+      "inflows": [
+        { "code": "IND", "name": "India", "value": 835000 },
+        { "code": "POL", "name": "Poland", "value": 815000 },
+        { "code": "PAK", "name": "Pakistan", "value": 612000 },
+        { "code": "DEU", "name": "Germany", "value": 412000 },
+        { "code": "USA", "name": "United States", "value": 318000 },
+        { "code": "NGA", "name": "Nigeria", "value": 287000 },
+        { "code": "FRA", "name": "France", "value": 254000 },
+        { "code": "ITA", "name": "Italy", "value": 218000 },
+        { "code": "CHN", "name": "China", "value": 209000 },
+        { "code": "ZAF", "name": "South Africa", "value": 256000 }
+      ],
+      "outflows": [
+        { "code": "AUS", "name": "Australia", "value": 1290000 },
+        { "code": "USA", "name": "United States", "value": 754000 },
+        { "code": "CAN", "name": "Canada", "value": 602000 },
+        { "code": "FRA", "name": "France", "value": 312000 },
+        { "code": "DEU", "name": "Germany", "value": 167000 },
+        { "code": "ZAF", "name": "South Africa", "value": 145000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 134000 },
+        { "code": "IND", "name": "India", "value": 65000 },
+        { "code": "ITA", "name": "Italy", "value": 62000 },
+        { "code": "PAK", "name": "Pakistan", "value": 58000 }
+      ]
+    },
+    "CHN": {
+      "inflows": [
+        { "code": "KOR", "name": "South Korea", "value": 245000 },
+        { "code": "BRA", "name": "Brazil", "value": 126000 },
+        { "code": "USA", "name": "United States", "value": 72000 },
+        { "code": "JPN", "name": "Japan", "value": 68000 },
+        { "code": "IND", "name": "India", "value": 53000 },
+        { "code": "MYS", "name": "Malaysia", "value": 49000 },
+        { "code": "AUS", "name": "Australia", "value": 38000 },
+        { "code": "VNM", "name": "Vietnam", "value": 37000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 2495000 },
+        { "code": "KOR", "name": "South Korea", "value": 652000 },
+        { "code": "JPN", "name": "Japan", "value": 784000 },
+        { "code": "CAN", "name": "Canada", "value": 692000 },
+        { "code": "AUS", "name": "Australia", "value": 651000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 209000 },
+        { "code": "ITA", "name": "Italy", "value": 310000 },
+        { "code": "DEU", "name": "Germany", "value": 189000 },
+        { "code": "FRA", "name": "France", "value": 125000 },
+        { "code": "THA", "name": "Thailand", "value": 98000 }
+      ]
+    },
+    "CAN": {
+      "inflows": [
+        { "code": "IND", "name": "India", "value": 720000 },
+        { "code": "CHN", "name": "China", "value": 692000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 602000 },
+        { "code": "PHL", "name": "Philippines", "value": 588000 },
+        { "code": "USA", "name": "United States", "value": 390000 },
+        { "code": "VNM", "name": "Vietnam", "value": 244000 },
+        { "code": "PAK", "name": "Pakistan", "value": 215000 },
+        { "code": "FRA", "name": "France", "value": 186000 },
+        { "code": "KOR", "name": "South Korea", "value": 166000 },
+        { "code": "MEX", "name": "Mexico", "value": 87000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 813000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 96000 },
+        { "code": "AUS", "name": "Australia", "value": 78000 },
+        { "code": "FRA", "name": "France", "value": 48000 },
+        { "code": "DEU", "name": "Germany", "value": 42000 },
+        { "code": "IND", "name": "India", "value": 18000 },
+        { "code": "CHN", "name": "China", "value": 15000 },
+        { "code": "JPN", "name": "Japan", "value": 12000 }
+      ]
+    },
+    "AUS": {
+      "inflows": [
+        { "code": "GBR", "name": "United Kingdom", "value": 1290000 },
+        { "code": "IND", "name": "India", "value": 689000 },
+        { "code": "CHN", "name": "China", "value": 651000 },
+        { "code": "VNM", "name": "Vietnam", "value": 268000 },
+        { "code": "PHL", "name": "Philippines", "value": 287000 },
+        { "code": "ZAF", "name": "South Africa", "value": 197000 },
+        { "code": "DEU", "name": "Germany", "value": 189000 },
+        { "code": "MYS", "name": "Malaysia", "value": 178000 },
+        { "code": "KOR", "name": "South Korea", "value": 113000 },
+        { "code": "USA", "name": "United States", "value": 112000 }
+      ],
+      "outflows": [
+        { "code": "GBR", "name": "United Kingdom", "value": 131000 },
+        { "code": "USA", "name": "United States", "value": 105000 },
+        { "code": "CAN", "name": "Canada", "value": 78000 },
+        { "code": "IND", "name": "India", "value": 32000 },
+        { "code": "DEU", "name": "Germany", "value": 26000 },
+        { "code": "JPN", "name": "Japan", "value": 18000 },
+        { "code": "CHN", "name": "China", "value": 38000 },
+        { "code": "ZAF", "name": "South Africa", "value": 21000 }
+      ]
+    },
+    "FRA": {
+      "inflows": [
+        { "code": "MAR", "name": "Morocco", "value": 1268000 },
+        { "code": "TUR", "name": "Turkey", "value": 512000 },
+        { "code": "ITA", "name": "Italy", "value": 386000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 312000 },
+        { "code": "DEU", "name": "Germany", "value": 321000 },
+        { "code": "POL", "name": "Poland", "value": 189000 },
+        { "code": "CHN", "name": "China", "value": 125000 },
+        { "code": "USA", "name": "United States", "value": 87000 },
+        { "code": "BRA", "name": "Brazil", "value": 78000 },
+        { "code": "RUS", "name": "Russia", "value": 96000 }
+      ],
+      "outflows": [
+        { "code": "GBR", "name": "United Kingdom", "value": 254000 },
+        { "code": "USA", "name": "United States", "value": 198000 },
+        { "code": "DEU", "name": "Germany", "value": 198000 },
+        { "code": "CAN", "name": "Canada", "value": 186000 },
+        { "code": "MAR", "name": "Morocco", "value": 42000 },
+        { "code": "ITA", "name": "Italy", "value": 89000 },
+        { "code": "AUS", "name": "Australia", "value": 36000 },
+        { "code": "BRA", "name": "Brazil", "value": 32000 }
+      ]
+    },
+    "BRA": {
+      "inflows": [
+        { "code": "VEN", "name": "Venezuela", "value": 261000 },
+        { "code": "ARG", "name": "Argentina", "value": 137000 },
+        { "code": "COL", "name": "Colombia", "value": 83000 },
+        { "code": "USA", "name": "United States", "value": 76000 },
+        { "code": "JPN", "name": "Japan", "value": 53000 },
+        { "code": "CHN", "name": "China", "value": 32000 },
+        { "code": "DEU", "name": "Germany", "value": 59000 },
+        { "code": "ITA", "name": "Italy", "value": 48000 },
+        { "code": "FRA", "name": "France", "value": 32000 },
+        { "code": "PAK", "name": "Pakistan", "value": 15000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 461000 },
+        { "code": "JPN", "name": "Japan", "value": 206000 },
+        { "code": "ARG", "name": "Argentina", "value": 156000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 89000 },
+        { "code": "FRA", "name": "France", "value": 78000 },
+        { "code": "DEU", "name": "Germany", "value": 68000 },
+        { "code": "ITA", "name": "Italy", "value": 53000 },
+        { "code": "CAN", "name": "Canada", "value": 42000 },
+        { "code": "AUS", "name": "Australia", "value": 36000 },
+        { "code": "CHN", "name": "China", "value": 126000 }
+      ]
+    },
+    "RUS": {
+      "inflows": [
+        { "code": "UKR", "name": "Ukraine", "value": 3348000 },
+        { "code": "TUR", "name": "Turkey", "value": 421000 },
+        { "code": "CHN", "name": "China", "value": 287000 },
+        { "code": "DEU", "name": "Germany", "value": 178000 },
+        { "code": "KOR", "name": "South Korea", "value": 65000 },
+        { "code": "VNM", "name": "Vietnam", "value": 58000 },
+        { "code": "USA", "name": "United States", "value": 43000 },
+        { "code": "IND", "name": "India", "value": 28000 }
+      ],
+      "outflows": [
+        { "code": "DEU", "name": "Germany", "value": 1311000 },
+        { "code": "USA", "name": "United States", "value": 410000 },
+        { "code": "UKR", "name": "Ukraine", "value": 1988000 },
+        { "code": "FRA", "name": "France", "value": 96000 },
+        { "code": "CAN", "name": "Canada", "value": 82000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 78000 },
+        { "code": "TUR", "name": "Turkey", "value": 112000 },
+        { "code": "ITA", "name": "Italy", "value": 52000 }
+      ]
+    },
+    "SAU": {
+      "inflows": [
+        { "code": "IND", "name": "India", "value": 2459000 },
+        { "code": "IDN", "name": "Indonesia", "value": 1486000 },
+        { "code": "PAK", "name": "Pakistan", "value": 1354000 },
+        { "code": "BGD", "name": "Bangladesh", "value": 1318000 },
+        { "code": "EGY", "name": "Egypt", "value": 1123000 },
+        { "code": "PHL", "name": "Philippines", "value": 936000 },
+        { "code": "SYR", "name": "Syria", "value": 586000 },
+        { "code": "ETH", "name": "Ethiopia", "value": 312000 },
+        { "code": "TUR", "name": "Turkey", "value": 178000 },
+        { "code": "JPN", "name": "Japan", "value": 42000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 82000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 65000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 56000 },
+        { "code": "EGY", "name": "Egypt", "value": 32000 },
+        { "code": "CAN", "name": "Canada", "value": 28000 },
+        { "code": "AUS", "name": "Australia", "value": 18000 }
+      ]
+    },
+    "ARE": {
+      "inflows": [
+        { "code": "IND", "name": "India", "value": 3478000 },
+        { "code": "BGD", "name": "Bangladesh", "value": 1067000 },
+        { "code": "PAK", "name": "Pakistan", "value": 1014000 },
+        { "code": "EGY", "name": "Egypt", "value": 762000 },
+        { "code": "PHL", "name": "Philippines", "value": 598000 },
+        { "code": "IDN", "name": "Indonesia", "value": 356000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 134000 },
+        { "code": "IRN", "name": "Iran", "value": 312000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 56000 },
+        { "code": "USA", "name": "United States", "value": 48000 }
+      ],
+      "outflows": [
+        { "code": "IND", "name": "India", "value": 38000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 32000 },
+        { "code": "USA", "name": "United States", "value": 28000 },
+        { "code": "CAN", "name": "Canada", "value": 15000 },
+        { "code": "AUS", "name": "Australia", "value": 12000 }
+      ]
+    },
+    "TUR": {
+      "inflows": [
+        { "code": "SYR", "name": "Syria", "value": 3696000 },
+        { "code": "IRQ", "name": "Iraq", "value": 435000 },
+        { "code": "DEU", "name": "Germany", "value": 523000 },
+        { "code": "RUS", "name": "Russia", "value": 112000 },
+        { "code": "AFG", "name": "Afghanistan", "value": 186000 },
+        { "code": "IRN", "name": "Iran", "value": 215000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 48000 },
+        { "code": "USA", "name": "United States", "value": 38000 }
+      ],
+      "outflows": [
+        { "code": "DEU", "name": "Germany", "value": 2773000 },
+        { "code": "FRA", "name": "France", "value": 512000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 178000 },
+        { "code": "USA", "name": "United States", "value": 215000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 178000 },
+        { "code": "AUS", "name": "Australia", "value": 68000 },
+        { "code": "CAN", "name": "Canada", "value": 53000 },
+        { "code": "RUS", "name": "Russia", "value": 421000 }
+      ]
+    },
+    "PAK": {
+      "inflows": [
+        { "code": "IND", "name": "India", "value": 1580000 },
+        { "code": "AFG", "name": "Afghanistan", "value": 1442000 },
+        { "code": "BGD", "name": "Bangladesh", "value": 98000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 58000 },
+        { "code": "USA", "name": "United States", "value": 32000 },
+        { "code": "IRN", "name": "Iran", "value": 28000 }
+      ],
+      "outflows": [
+        { "code": "SAU", "name": "Saudi Arabia", "value": 1354000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 1014000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 612000 },
+        { "code": "USA", "name": "United States", "value": 486000 },
+        { "code": "IND", "name": "India", "value": 498000 },
+        { "code": "CAN", "name": "Canada", "value": 215000 },
+        { "code": "DEU", "name": "Germany", "value": 98000 },
+        { "code": "ITA", "name": "Italy", "value": 86000 },
+        { "code": "AUS", "name": "Australia", "value": 62000 },
+        { "code": "FRA", "name": "France", "value": 48000 }
+      ]
+    },
+    "BGD": {
+      "inflows": [
+        { "code": "IND", "name": "India", "value": 1458000 },
+        { "code": "PAK", "name": "Pakistan", "value": 98000 },
+        { "code": "CHN", "name": "China", "value": 42000 },
+        { "code": "USA", "name": "United States", "value": 18000 }
+      ],
+      "outflows": [
+        { "code": "IND", "name": "India", "value": 2938000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 1318000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 1067000 },
+        { "code": "MYS", "name": "Malaysia", "value": 486000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 282000 },
+        { "code": "USA", "name": "United States", "value": 258000 },
+        { "code": "ITA", "name": "Italy", "value": 142000 },
+        { "code": "JPN", "name": "Japan", "value": 32000 },
+        { "code": "KOR", "name": "South Korea", "value": 28000 },
+        { "code": "PAK", "name": "Pakistan", "value": 98000 }
+      ]
+    },
+    "PHL": {
+      "inflows": [
+        { "code": "USA", "name": "United States", "value": 68000 },
+        { "code": "CHN", "name": "China", "value": 42000 },
+        { "code": "JPN", "name": "Japan", "value": 28000 },
+        { "code": "KOR", "name": "South Korea", "value": 38000 },
+        { "code": "IND", "name": "India", "value": 18000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 2013000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 936000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 598000 },
+        { "code": "CAN", "name": "Canada", "value": 588000 },
+        { "code": "AUS", "name": "Australia", "value": 287000 },
+        { "code": "JPN", "name": "Japan", "value": 282000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 186000 },
+        { "code": "MYS", "name": "Malaysia", "value": 152000 },
+        { "code": "ITA", "name": "Italy", "value": 167000 },
+        { "code": "KOR", "name": "South Korea", "value": 62000 }
+      ]
+    },
+    "IDN": {
+      "inflows": [
+        { "code": "CHN", "name": "China", "value": 98000 },
+        { "code": "MYS", "name": "Malaysia", "value": 42000 },
+        { "code": "IND", "name": "India", "value": 38000 },
+        { "code": "JPN", "name": "Japan", "value": 28000 },
+        { "code": "AUS", "name": "Australia", "value": 18000 },
+        { "code": "KOR", "name": "South Korea", "value": 15000 }
+      ],
+      "outflows": [
+        { "code": "SAU", "name": "Saudi Arabia", "value": 1486000 },
+        { "code": "MYS", "name": "Malaysia", "value": 1205000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 356000 },
+        { "code": "USA", "name": "United States", "value": 98000 },
+        { "code": "AUS", "name": "Australia", "value": 82000 },
+        { "code": "JPN", "name": "Japan", "value": 68000 },
+        { "code": "KOR", "name": "South Korea", "value": 48000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 35000 },
+        { "code": "DEU", "name": "Germany", "value": 28000 },
+        { "code": "NGA", "name": "Nigeria", "value": 12000 }
+      ]
+    },
+    "EGY": {
+      "inflows": [
+        { "code": "SYR", "name": "Syria", "value": 132000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 32000 },
+        { "code": "IRQ", "name": "Iraq", "value": 72000 },
+        { "code": "ETH", "name": "Ethiopia", "value": 28000 },
+        { "code": "USA", "name": "United States", "value": 15000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 12000 }
+      ],
+      "outflows": [
+        { "code": "SAU", "name": "Saudi Arabia", "value": 1123000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 762000 },
+        { "code": "USA", "name": "United States", "value": 215000 },
+        { "code": "ITA", "name": "Italy", "value": 152000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 98000 },
+        { "code": "CAN", "name": "Canada", "value": 86000 },
+        { "code": "FRA", "name": "France", "value": 72000 },
+        { "code": "DEU", "name": "Germany", "value": 68000 },
+        { "code": "AUS", "name": "Australia", "value": 42000 }
+      ]
+    },
+    "POL": {
+      "inflows": [
+        { "code": "UKR", "name": "Ukraine", "value": 298000 },
+        { "code": "DEU", "name": "Germany", "value": 67000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 48000 },
+        { "code": "RUS", "name": "Russia", "value": 42000 },
+        { "code": "VNM", "name": "Vietnam", "value": 32000 },
+        { "code": "IND", "name": "India", "value": 18000 }
+      ],
+      "outflows": [
+        { "code": "DEU", "name": "Germany", "value": 2176000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 815000 },
+        { "code": "USA", "name": "United States", "value": 432000 },
+        { "code": "ITA", "name": "Italy", "value": 98000 },
+        { "code": "FRA", "name": "France", "value": 189000 },
+        { "code": "CAN", "name": "Canada", "value": 86000 },
+        { "code": "AUS", "name": "Australia", "value": 48000 },
+        { "code": "NGA", "name": "Nigeria", "value": 8000 }
+      ]
+    },
+    "VNM": {
+      "inflows": [
+        { "code": "CHN", "name": "China", "value": 23000 },
+        { "code": "KOR", "name": "South Korea", "value": 18000 },
+        { "code": "USA", "name": "United States", "value": 12000 },
+        { "code": "JPN", "name": "Japan", "value": 8000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 1382000 },
+        { "code": "AUS", "name": "Australia", "value": 268000 },
+        { "code": "CAN", "name": "Canada", "value": 244000 },
+        { "code": "FRA", "name": "France", "value": 126000 },
+        { "code": "KOR", "name": "South Korea", "value": 68000 },
+        { "code": "RUS", "name": "Russia", "value": 58000 },
+        { "code": "JPN", "name": "Japan", "value": 420000 },
+        { "code": "DEU", "name": "Germany", "value": 112000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 52000 },
+        { "code": "POL", "name": "Poland", "value": 32000 }
+      ]
+    },
+    "KOR": {
+      "inflows": [
+        { "code": "CHN", "name": "China", "value": 652000 },
+        { "code": "VNM", "name": "Vietnam", "value": 68000 },
+        { "code": "USA", "name": "United States", "value": 65000 },
+        { "code": "IDN", "name": "Indonesia", "value": 48000 },
+        { "code": "JPN", "name": "Japan", "value": 42000 },
+        { "code": "BGD", "name": "Bangladesh", "value": 28000 },
+        { "code": "PHL", "name": "Philippines", "value": 62000 },
+        { "code": "THA", "name": "Thailand", "value": 32000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 1052000 },
+        { "code": "JPN", "name": "Japan", "value": 415000 },
+        { "code": "CAN", "name": "Canada", "value": 166000 },
+        { "code": "CHN", "name": "China", "value": 245000 },
+        { "code": "AUS", "name": "Australia", "value": 113000 },
+        { "code": "DEU", "name": "Germany", "value": 42000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 38000 },
+        { "code": "VNM", "name": "Vietnam", "value": 18000 }
+      ]
+    },
+    "JPN": {
+      "inflows": [
+        { "code": "CHN", "name": "China", "value": 784000 },
+        { "code": "KOR", "name": "South Korea", "value": 415000 },
+        { "code": "VNM", "name": "Vietnam", "value": 420000 },
+        { "code": "PHL", "name": "Philippines", "value": 282000 },
+        { "code": "BRA", "name": "Brazil", "value": 206000 },
+        { "code": "IDN", "name": "Indonesia", "value": 68000 },
+        { "code": "USA", "name": "United States", "value": 98000 },
+        { "code": "THA", "name": "Thailand", "value": 52000 },
+        { "code": "IND", "name": "India", "value": 42000 },
+        { "code": "BGD", "name": "Bangladesh", "value": 32000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 312000 },
+        { "code": "BRA", "name": "Brazil", "value": 53000 },
+        { "code": "CHN", "name": "China", "value": 68000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 62000 },
+        { "code": "AUS", "name": "Australia", "value": 48000 },
+        { "code": "CAN", "name": "Canada", "value": 42000 },
+        { "code": "KOR", "name": "South Korea", "value": 42000 },
+        { "code": "THA", "name": "Thailand", "value": 82000 },
+        { "code": "DEU", "name": "Germany", "value": 28000 }
+      ]
+    },
+    "ITA": {
+      "inflows": [
+        { "code": "CHN", "name": "China", "value": 310000 },
+        { "code": "PHL", "name": "Philippines", "value": 167000 },
+        { "code": "EGY", "name": "Egypt", "value": 152000 },
+        { "code": "BGD", "name": "Bangladesh", "value": 142000 },
+        { "code": "POL", "name": "Poland", "value": 98000 },
+        { "code": "PAK", "name": "Pakistan", "value": 86000 },
+        { "code": "FRA", "name": "France", "value": 89000 },
+        { "code": "DEU", "name": "Germany", "value": 82000 },
+        { "code": "BRA", "name": "Brazil", "value": 53000 },
+        { "code": "RUS", "name": "Russia", "value": 52000 }
+      ],
+      "outflows": [
+        { "code": "DEU", "name": "Germany", "value": 755000 },
+        { "code": "FRA", "name": "France", "value": 386000 },
+        { "code": "USA", "name": "United States", "value": 312000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 218000 },
+        { "code": "ARG", "name": "Argentina", "value": 156000 },
+        { "code": "BRA", "name": "Brazil", "value": 48000 },
+        { "code": "AUS", "name": "Australia", "value": 86000 },
+        { "code": "CAN", "name": "Canada", "value": 72000 }
+      ]
+    },
+    "AFG": {
+      "inflows": [
+        { "code": "PAK", "name": "Pakistan", "value": 56000 },
+        { "code": "IRN", "name": "Iran", "value": 42000 },
+        { "code": "IND", "name": "India", "value": 8000 }
+      ],
+      "outflows": [
+        { "code": "IRN", "name": "Iran", "value": 951000 },
+        { "code": "PAK", "name": "Pakistan", "value": 1442000 },
+        { "code": "DEU", "name": "Germany", "value": 232000 },
+        { "code": "TUR", "name": "Turkey", "value": 186000 },
+        { "code": "IND", "name": "India", "value": 413000 },
+        { "code": "USA", "name": "United States", "value": 152000 },
+        { "code": "AUS", "name": "Australia", "value": 68000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 78000 },
+        { "code": "CAN", "name": "Canada", "value": 72000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 38000 }
+      ]
+    },
+    "SYR": {
+      "inflows": [
+        { "code": "IRQ", "name": "Iraq", "value": 612000 },
+        { "code": "PAK", "name": "Pakistan", "value": 82000 },
+        { "code": "AFG", "name": "Afghanistan", "value": 48000 },
+        { "code": "EGY", "name": "Egypt", "value": 28000 }
+      ],
+      "outflows": [
+        { "code": "TUR", "name": "Turkey", "value": 3696000 },
+        { "code": "DEU", "name": "Germany", "value": 876000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 586000 },
+        { "code": "EGY", "name": "Egypt", "value": 132000 },
+        { "code": "IRQ", "name": "Iraq", "value": 263000 },
+        { "code": "FRA", "name": "France", "value": 68000 },
+        { "code": "USA", "name": "United States", "value": 98000 },
+        { "code": "CAN", "name": "Canada", "value": 86000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 42000 }
+      ]
+    },
+    "UKR": {
+      "inflows": [
+        { "code": "RUS", "name": "Russia", "value": 1988000 },
+        { "code": "POL", "name": "Poland", "value": 68000 },
+        { "code": "DEU", "name": "Germany", "value": 32000 },
+        { "code": "USA", "name": "United States", "value": 18000 }
+      ],
+      "outflows": [
+        { "code": "RUS", "name": "Russia", "value": 3348000 },
+        { "code": "POL", "name": "Poland", "value": 298000 },
+        { "code": "USA", "name": "United States", "value": 362000 },
+        { "code": "DEU", "name": "Germany", "value": 268000 },
+        { "code": "CAN", "name": "Canada", "value": 156000 },
+        { "code": "ITA", "name": "Italy", "value": 238000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 68000 },
+        { "code": "FRA", "name": "France", "value": 42000 }
+      ]
+    },
+    "VEN": {
+      "inflows": [
+        { "code": "COL", "name": "Colombia", "value": 763000 },
+        { "code": "USA", "name": "United States", "value": 42000 },
+        { "code": "BRA", "name": "Brazil", "value": 28000 },
+        { "code": "ARG", "name": "Argentina", "value": 18000 }
+      ],
+      "outflows": [
+        { "code": "COL", "name": "Colombia", "value": 1742000 },
+        { "code": "USA", "name": "United States", "value": 502000 },
+        { "code": "ARG", "name": "Argentina", "value": 178000 },
+        { "code": "BRA", "name": "Brazil", "value": 261000 },
+        { "code": "MEX", "name": "Mexico", "value": 105000 },
+        { "code": "CAN", "name": "Canada", "value": 48000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 32000 },
+        { "code": "ITA", "name": "Italy", "value": 28000 }
+      ]
+    },
+    "COL": {
+      "inflows": [
+        { "code": "VEN", "name": "Venezuela", "value": 1742000 },
+        { "code": "USA", "name": "United States", "value": 48000 },
+        { "code": "ARG", "name": "Argentina", "value": 28000 },
+        { "code": "BRA", "name": "Brazil", "value": 18000 },
+        { "code": "MEX", "name": "Mexico", "value": 12000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 702000 },
+        { "code": "VEN", "name": "Venezuela", "value": 763000 },
+        { "code": "MEX", "name": "Mexico", "value": 56000 },
+        { "code": "BRA", "name": "Brazil", "value": 83000 },
+        { "code": "CAN", "name": "Canada", "value": 48000 },
+        { "code": "ARG", "name": "Argentina", "value": 98000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 38000 },
+        { "code": "FRA", "name": "France", "value": 28000 }
+      ]
+    },
+    "ARG": {
+      "inflows": [
+        { "code": "BRA", "name": "Brazil", "value": 156000 },
+        { "code": "VEN", "name": "Venezuela", "value": 178000 },
+        { "code": "COL", "name": "Colombia", "value": 98000 },
+        { "code": "ITA", "name": "Italy", "value": 156000 },
+        { "code": "CHN", "name": "China", "value": 68000 },
+        { "code": "USA", "name": "United States", "value": 42000 },
+        { "code": "MEX", "name": "Mexico", "value": 7000 },
+        { "code": "DEU", "name": "Germany", "value": 28000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 186000 },
+        { "code": "BRA", "name": "Brazil", "value": 137000 },
+        { "code": "ITA", "name": "Italy", "value": 98000 },
+        { "code": "FRA", "name": "France", "value": 68000 },
+        { "code": "MEX", "name": "Mexico", "value": 42000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 32000 },
+        { "code": "CAN", "name": "Canada", "value": 28000 },
+        { "code": "VEN", "name": "Venezuela", "value": 18000 }
+      ]
+    },
+    "NGA": {
+      "inflows": [
+        { "code": "GHA", "name": "Ghana", "value": 186000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 42000 },
+        { "code": "USA", "name": "United States", "value": 28000 },
+        { "code": "IND", "name": "India", "value": 18000 },
+        { "code": "CHN", "name": "China", "value": 15000 }
+      ],
+      "outflows": [
+        { "code": "GBR", "name": "United Kingdom", "value": 287000 },
+        { "code": "USA", "name": "United States", "value": 312000 },
+        { "code": "GHA", "name": "Ghana", "value": 98000 },
+        { "code": "ITA", "name": "Italy", "value": 72000 },
+        { "code": "DEU", "name": "Germany", "value": 38000 },
+        { "code": "ZAF", "name": "South Africa", "value": 68000 },
+        { "code": "CAN", "name": "Canada", "value": 56000 },
+        { "code": "FRA", "name": "France", "value": 28000 }
+      ]
+    },
+    "GHA": {
+      "inflows": [
+        { "code": "NGA", "name": "Nigeria", "value": 98000 },
+        { "code": "CHN", "name": "China", "value": 32000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 28000 },
+        { "code": "USA", "name": "United States", "value": 18000 },
+        { "code": "IND", "name": "India", "value": 12000 }
+      ],
+      "outflows": [
+        { "code": "NGA", "name": "Nigeria", "value": 186000 },
+        { "code": "USA", "name": "United States", "value": 156000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 98000 },
+        { "code": "ITA", "name": "Italy", "value": 62000 },
+        { "code": "DEU", "name": "Germany", "value": 42000 },
+        { "code": "CAN", "name": "Canada", "value": 38000 },
+        { "code": "ZAF", "name": "South Africa", "value": 28000 }
+      ]
+    },
+    "ZAF": {
+      "inflows": [
+        { "code": "NGA", "name": "Nigeria", "value": 68000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 145000 },
+        { "code": "IND", "name": "India", "value": 98000 },
+        { "code": "GHA", "name": "Ghana", "value": 28000 },
+        { "code": "DEU", "name": "Germany", "value": 42000 },
+        { "code": "CHN", "name": "China", "value": 38000 },
+        { "code": "PAK", "name": "Pakistan", "value": 32000 },
+        { "code": "USA", "name": "United States", "value": 28000 },
+        { "code": "AUS", "name": "Australia", "value": 21000 }
+      ],
+      "outflows": [
+        { "code": "GBR", "name": "United Kingdom", "value": 256000 },
+        { "code": "AUS", "name": "Australia", "value": 197000 },
+        { "code": "USA", "name": "United States", "value": 82000 },
+        { "code": "CAN", "name": "Canada", "value": 62000 },
+        { "code": "DEU", "name": "Germany", "value": 28000 },
+        { "code": "NGA", "name": "Nigeria", "value": 18000 }
+      ]
+    },
+    "MYS": {
+      "inflows": [
+        { "code": "IDN", "name": "Indonesia", "value": 1205000 },
+        { "code": "BGD", "name": "Bangladesh", "value": 486000 },
+        { "code": "IND", "name": "India", "value": 413000 },
+        { "code": "PHL", "name": "Philippines", "value": 152000 },
+        { "code": "CHN", "name": "China", "value": 98000 },
+        { "code": "THA", "name": "Thailand", "value": 62000 },
+        { "code": "VNM", "name": "Vietnam", "value": 42000 },
+        { "code": "PAK", "name": "Pakistan", "value": 38000 }
+      ],
+      "outflows": [
+        { "code": "AUS", "name": "Australia", "value": 178000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 98000 },
+        { "code": "USA", "name": "United States", "value": 72000 },
+        { "code": "CAN", "name": "Canada", "value": 42000 },
+        { "code": "IND", "name": "India", "value": 48000 },
+        { "code": "IDN", "name": "Indonesia", "value": 42000 },
+        { "code": "CHN", "name": "China", "value": 49000 }
+      ]
+    },
+    "THA": {
+      "inflows": [
+        { "code": "CHN", "name": "China", "value": 98000 },
+        { "code": "JPN", "name": "Japan", "value": 82000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 62000 },
+        { "code": "IND", "name": "India", "value": 38000 },
+        { "code": "KOR", "name": "South Korea", "value": 32000 },
+        { "code": "USA", "name": "United States", "value": 42000 },
+        { "code": "DEU", "name": "Germany", "value": 28000 },
+        { "code": "AUS", "name": "Australia", "value": 22000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 286000 },
+        { "code": "AUS", "name": "Australia", "value": 72000 },
+        { "code": "DEU", "name": "Germany", "value": 68000 },
+        { "code": "JPN", "name": "Japan", "value": 52000 },
+        { "code": "MYS", "name": "Malaysia", "value": 62000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 42000 },
+        { "code": "KOR", "name": "South Korea", "value": 32000 },
+        { "code": "CAN", "name": "Canada", "value": 28000 }
+      ]
+    },
+    "IRN": {
+      "inflows": [
+        { "code": "AFG", "name": "Afghanistan", "value": 951000 },
+        { "code": "IRQ", "name": "Iraq", "value": 526000 },
+        { "code": "PAK", "name": "Pakistan", "value": 98000 },
+        { "code": "TUR", "name": "Turkey", "value": 62000 },
+        { "code": "IND", "name": "India", "value": 28000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 18000 }
+      ],
+      "outflows": [
+        { "code": "TUR", "name": "Turkey", "value": 215000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 312000 },
+        { "code": "USA", "name": "United States", "value": 356000 },
+        { "code": "DEU", "name": "Germany", "value": 178000 },
+        { "code": "CAN", "name": "Canada", "value": 142000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 98000 },
+        { "code": "AUS", "name": "Australia", "value": 62000 },
+        { "code": "FRA", "name": "France", "value": 48000 }
+      ]
+    },
+    "IRQ": {
+      "inflows": [
+        { "code": "SYR", "name": "Syria", "value": 263000 },
+        { "code": "IRN", "name": "Iran", "value": 42000 },
+        { "code": "TUR", "name": "Turkey", "value": 28000 },
+        { "code": "PAK", "name": "Pakistan", "value": 18000 }
+      ],
+      "outflows": [
+        { "code": "IRN", "name": "Iran", "value": 526000 },
+        { "code": "TUR", "name": "Turkey", "value": 435000 },
+        { "code": "DEU", "name": "Germany", "value": 259000 },
+        { "code": "SYR", "name": "Syria", "value": 612000 },
+        { "code": "USA", "name": "United States", "value": 178000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 86000 },
+        { "code": "AUS", "name": "Australia", "value": 52000 },
+        { "code": "FRA", "name": "France", "value": 38000 }
+      ]
+    },
+    "ETH": {
+      "inflows": [
+        { "code": "EGY", "name": "Egypt", "value": 28000 },
+        { "code": "KEN", "name": "Kenya", "value": 42000 },
+        { "code": "IND", "name": "India", "value": 18000 },
+        { "code": "USA", "name": "United States", "value": 12000 }
+      ],
+      "outflows": [
+        { "code": "SAU", "name": "Saudi Arabia", "value": 312000 },
+        { "code": "USA", "name": "United States", "value": 252000 },
+        { "code": "KEN", "name": "Kenya", "value": 178000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 42000 },
+        { "code": "CAN", "name": "Canada", "value": 38000 },
+        { "code": "DEU", "name": "Germany", "value": 28000 },
+        { "code": "AUS", "name": "Australia", "value": 18000 }
+      ]
+    },
+    "KEN": {
+      "inflows": [
+        { "code": "ETH", "name": "Ethiopia", "value": 178000 },
+        { "code": "IND", "name": "India", "value": 103000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 62000 },
+        { "code": "USA", "name": "United States", "value": 32000 },
+        { "code": "UGA", "name": "Uganda", "value": 86000 },
+        { "code": "ZAF", "name": "South Africa", "value": 18000 }
+      ],
+      "outflows": [
+        { "code": "USA", "name": "United States", "value": 142000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 98000 },
+        { "code": "AUS", "name": "Australia", "value": 42000 },
+        { "code": "CAN", "name": "Canada", "value": 38000 },
+        { "code": "ETH", "name": "Ethiopia", "value": 42000 },
+        { "code": "ZAF", "name": "South Africa", "value": 28000 },
+        { "code": "DEU", "name": "Germany", "value": 18000 }
+      ]
+    },
+    "MAR": {
+      "inflows": [
+        { "code": "FRA", "name": "France", "value": 42000 },
+        { "code": "SYR", "name": "Syria", "value": 18000 },
+        { "code": "USA", "name": "United States", "value": 8000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 6000 }
+      ],
+      "outflows": [
+        { "code": "FRA", "name": "France", "value": 1268000 },
+        { "code": "ITA", "name": "Italy", "value": 512000 },
+        { "code": "DEU", "name": "Germany", "value": 186000 },
+        { "code": "GBR", "name": "United Kingdom", "value": 72000 },
+        { "code": "USA", "name": "United States", "value": 86000 },
+        { "code": "CAN", "name": "Canada", "value": 98000 },
+        { "code": "ARE", "name": "United Arab Emirates", "value": 32000 },
+        { "code": "SAU", "name": "Saudi Arabia", "value": 28000 }
+      ]
+    }
+  }
+}

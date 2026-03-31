@@ -136,6 +136,9 @@ export function StatsPanel({ flowsData, onClose }: StatsPanelProps) {
           ))}
         </ul>
       </div>
+      <footer className="stats__attribution">
+        Source: World Bank / UN DESA, 2020
+      </footer>
     </aside>
   );
 }
